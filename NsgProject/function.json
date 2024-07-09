@@ -8,5 +8,5 @@
         "connection": "AzureWebJobsStorage"
       }
     ],
-    "scriptFile": "__init__.py"
+    "scriptFile": "function_app.py"
   }
