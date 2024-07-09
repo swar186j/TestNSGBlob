@@ -1,0 +1,12 @@
+{
+    "bindings": [
+      {
+        "name": "blob",
+        "type": "blobTrigger",
+        "direction": "in",
+        "path": "insights-logs-networksecuritygroupflowevent/{resourceId}/y={year}/m={month}/d={day}/h={hour}/m={minute}/macAddress={macAddress}/PT1H.json",
+        "connection": "AzureWebJobsStorage"
+      }
+    ],
+    "scriptFile": "__init__.py"
+  }
